@@ -1,0 +1,107 @@
+version: '3.1'
+nlu:
+  - group: Window Management
+    intents:
+      - intent: show_windows
+        examples: |
+          - Zeige alle Fenster.
+          - Alle offenen Fenster anzeigen.
+      - intent: maximize_window
+        examples: |
+          - Fenster maximieren.
+          - Mach das Fenster groß.
+      - intent: close_window
+        examples: |
+          - Schließe das Fenster.
+          - Fenster schließen.
+      - intent: switch_to_desktop
+        examples: |
+          - Zum Desktop wechseln.
+          - Zeige den Desktop an.
+
+  - group: Anwendungen und Software
+    intents:
+      - intent: open_browser
+        examples: |
+          - Öffne den Browser.
+          - Browser starten.
+      - intent: open_explorer
+        examples: |
+          - Explorer öffnen.
+          - Datei-Explorer starten.
+      - intent: open_calculator
+        examples: |
+          - Taschenrechner öffnen.
+          - Starte den Taschenrechner.
+      - intent: open_application
+        examples: |
+          - Öffne Anwendung XYZ.
+          - Starte die Anwendung XYZ.
+      - intent: close_application
+        examples: |
+          - Schließe Anwendung XYZ.
+          - Beende die Anwendung XYZ.
+
+  - group: Dokumente und Medien
+    intents:
+      - intent: new_document
+        examples: |
+          - Neues Dokument erstellen.
+          - Erzeuge ein neues Dokument.
+      - intent: save_document
+        examples: |
+          - Dokument speichern.
+          - Speichere das aktuelle Dokument.
+      - intent: print_document
+        examples: |
+          - Dokument drucken.
+          - Drucke das geöffnete Dokument.
+      - intent: send_email
+        examples: |
+          - Email senden.
+          - Sende eine Email.
+      - intent: play_music
+        examples: |
+          - Musik abspielen.
+          - Spiele meine Playlist ab.
+      - intent: pause_music
+        examples: |
+          - Musik pausieren.
+          - Pausiere die Musik.
+      - intent: next_song
+        examples: |
+          - Nächstes Lied.
+          - Springe zum nächsten Song.
+      - intent: previous_song
+        examples: |
+          - Vorheriges Lied.
+          - Zum vorherigen Song zurückkehren.
+      - intent: increase_volume
+        examples: |
+          - Lautstärke erhöhen.
+          - Mach lauter.
+      - intent: decrease_volume
+        examples: |
+          - Lautstärke verringern.
+          - Mach leiser.
+      - intent: mute_toggle
+        examples: |
+          - Ton aus/an.
+          - Stummschaltung umschalten.
+
+  # - group: Web und Internet
+  #   intents:
+  #     - intent: web_search
+  #       examples: |
+  #         - Suche im Internet.
+  #         - Führe eine Web-Suche durch.
+  #     - intent: open_website
+  #       examples: |
+  #         - Webseite öffnen.
+  #         - Öffne die Website www.beispiel.de.
+  #     - intent: refresh_page
+  #       examples: |
+  #         - Seite aktualisieren.
+  #         - Lade die Seite neu.
+      
+  # Weitere Gruppen und Intents können hier folgen, um die Datei übersichtlich und organisiert zu halten.
